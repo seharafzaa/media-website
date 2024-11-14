@@ -1,0 +1,765 @@
+body {
+  overflow-x: hidden !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+
+}
+
+.that{
+
+background-color: white;
+width: 800px;
+height: 350px;
+
+}
+.is{
+  
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.our{
+
+font-size: 20px;
+margin-left: 80px ;
+width: 300px;
+border-top: none;
+border-left: none;
+border-right: none;
+
+}
+
+
+
+.me{
+
+  width: 300px;
+border-top: none;
+border-left: none;
+border-right: none;
+  font-size: 20px;
+  margin-left: 80px ;
+  }
+
+  
+
+
+.too{
+  width: 300px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  margin-left: 80px ;
+  }
+  
+
+  .yes{
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    margin-left: 90px ;
+    }
+
+.ziya{
+
+  
+  margin-left: 80px ;
+  border:none;
+  font-size: 20px;
+}
+
+.how{
+width: 700px;
+margin-left: 80px;
+
+}
+
+.laptop{
+
+  margin-top: 60px;
+  margin-left: 83px;
+  font-size: 17px;
+background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+width: 200px;
+height: 50px;
+border: none;
+color: white;
+font: bold;
+
+}
+
+
+.child{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.child1{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:320px) {
+
+
+  .child{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.child1{
+  display: flex;
+  flex-direction:column;
+  }
+
+  .that{
+
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    }
+    
+    .too{
+      width: 200px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 20px;
+      margin-left: 30px ;
+      }
+
+      .our{
+
+        font-size: 20px;
+        margin-left: 30px ;
+        width: 200px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        
+        }
+        .yes{
+          width: 200px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          font-size: 20px;
+          margin-left: 30px ;
+          }
+          .me{
+
+            width: 200px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+            font-size: 20px;
+            margin-left: 30px ;
+            }
+            .ziya{
+
+
+              margin-left: 30px ;
+              border:none;
+              font-size: 20px;
+            }
+
+            .laptop{
+            margin-top: 90px;
+            margin-left: 10px;
+            font-size: 17px;
+            background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+            width: 200px;
+            height: 50px;
+            border: none;
+            color: white;
+            font: bold;
+            }
+            .how{
+              width: 220px;
+              margin-left: 30px;
+              
+              }
+                          
+                                      
+                            
+        
+
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width:321px) and (max-width:375px)
+{
+
+
+  .child{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.child1{
+  display: flex;
+  flex-direction:column;
+  }
+
+  .is{
+  
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  
+
+  .that{
+
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    }
+    
+    .too{
+      width: 250px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 20px;
+      margin-left: 30px ;
+      }
+
+
+
+      .our{
+
+        font-size: 20px;
+        margin-left: 30px ;
+        width: 250px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        
+        }
+        .yes{
+          width: 250px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          font-size: 20px;
+          margin-left: 30px ;
+          }
+          .me{
+
+            width: 250px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+            font-size: 20px;
+            margin-left: 30px ;
+            }
+            .ziya{
+
+
+              margin-left: 30px ;
+              border:none;
+              font-size: 20px;
+            }
+
+            .laptop{
+            margin-top: 130px;
+            margin-left: 10px;
+            font-size: 17px;
+            background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+            width: 200px;
+            height: 50px;
+            border: none;
+            color: white;
+            font: bold;
+            }
+            .how{
+              width: 260px;
+              margin-left: 30px;
+              
+              }
+                    
+}
+
+@media screen and (min-width:376px) and (max-width:420px)
+{
+
+
+  .child{
+    display:none;
+    flex-direction: column;
+  }
+
+
+.child1{
+  display: flex;
+  flex-direction:column;
+  }
+
+  .is{
+  
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  
+
+  .that{
+
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    }
+    
+    .too{
+      width: 250px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 20px;
+      margin-left: 30px ;
+      }
+
+
+
+      .our{
+
+        font-size: 20px;
+        margin-left: 30px ;
+        width: 250px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        
+        }
+        .yes{
+          width: 250px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          font-size: 20px;
+          margin-left: 30px ;
+          }
+          .me{
+
+            width: 250px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+            font-size: 20px;
+            margin-left: 30px ;
+            }
+            .ziya{
+
+
+              margin-left: 30px ;
+              border:none;
+              font-size: 20px;
+            }
+
+            .laptop{
+            margin-top: 130px;
+            margin-left: 10px;
+            font-size: 17px;
+            background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+            width: 200px;
+            height: 50px;
+            border: none;
+            color: white;
+            font: bold;
+            }
+            .how{
+              width: 260px;
+              margin-left: 30px;
+              
+              }
+                    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:421px) and (max-width:600px)
+{
+
+
+  .child{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.child1{
+  display: flex;
+  flex-direction:column;
+  }
+
+  .is{
+  
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  
+
+  .that{
+
+    background-color: white;
+    width: 340px;
+    height: 450px;
+    }
+    
+    .too{
+      width: 250px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 20px;
+      margin-left: 30px ;
+      }
+
+
+
+      .our{
+
+        font-size: 20px;
+        margin-left: 30px ;
+        width: 250px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        
+        }
+        .yes{
+          width: 250px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          font-size: 20px;
+          margin-left: 30px ;
+          }
+          .me{
+
+            width: 250px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+            font-size: 20px;
+            margin-left: 30px ;
+            }
+            .ziya{
+
+
+              margin-left: 30px ;
+              border:none;
+              font-size: 20px;
+            }
+
+            .laptop{
+            margin-top: 140px;
+            margin-left: 10px;
+            font-size: 17px;
+            background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+            width: 200px;
+            height: 50px;
+            border: none;
+            color: white;
+            font: bold;
+            }
+            .how{
+              width: 260px;
+              margin-left: 30px;
+              
+              }
+                    
+}
+
+
+@media screen and (min-width:601px) and (max-width:768px)
+{
+
+
+  .child{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+.child1{
+  display: flex;
+  flex-direction:row;
+  }
+
+  .is{
+  
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  
+
+  .that{
+
+    background-color: white;
+    width: 650px;
+    height: 350px;
+    }
+    
+    .too{
+      width: 250px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 20px;
+      margin-left: 30px ;
+      }
+
+
+
+      .our{
+
+        font-size: 20px;
+        margin-left: 60px ;
+        width: 250px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        
+        }
+        .yes{
+          width: 250px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          font-size: 20px;
+          margin-left: 30px ;
+          }
+          .me{
+
+            width: 250px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+            font-size: 20px;
+            margin-left: 60px ;
+            }
+            .ziya{
+
+
+              margin-left: 60px ;
+              border:none;
+              font-size: 20px;
+            }
+
+            .laptop{
+            margin-top: 90px;
+            margin-left: 50px;
+            font-size: 17px;
+            background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+            width: 200px;
+            height: 50px;
+            border: none;
+            color: white;
+            font: bold;
+            }
+            .how{
+              width: 550px;
+              margin-left: 60px;
+              
+              }
+                    
+}
+
+             
+
+@media screen and (min-width:1024px) and (max-width:1440px)
+{
+
+
+  .child{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+.child1{
+  display: flex;
+  flex-direction:row;
+  }
+
+  .is{
+  
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  
+
+  .that{
+
+    background-color: white;
+    width: 640px;
+    height: 350px;
+    }
+    
+    .too{
+      width: 250px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      font-size: 20px;
+      margin-left: 30px ;
+      }
+
+
+
+      .our{
+
+        font-size: 20px;
+        margin-left: 30px ;
+        width: 250px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        
+        }
+        .yes{
+          width: 250px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          font-size: 20px;
+          margin-left: 30px ;
+          }
+          .me{
+
+            width: 250px;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+            font-size: 20px;
+            margin-left: 30px ;
+            }
+            .ziya{
+
+
+              margin-left: 30px ;
+              border:none;
+              font-size: 20px;
+            }
+
+            .laptop{
+            margin-top: 80px;
+            margin-left: 10px;
+            font-size: 17px;
+            background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+            width: 200px;
+            height: 50px;
+            border: none;
+            color: white;
+            font: bold;
+            }
+            .how{
+              width: 560px;
+              margin-left: 30px;
+              
+              }
+                    
+}
+
+             
+
+
+
+
+
+
+
+
+
